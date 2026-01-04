@@ -843,6 +843,13 @@ class ModernGUI(QMainWindow):
         admin_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(admin_label)
         
+        # 作者信息
+        author_info = QLabel("免费开源，禁止倒卖\nB站：54006o | QQ：2449995562\n个人站：www.006.kim")
+        author_info.setStyleSheet(f"color: {COLORS['text_light']}; font-size: 10px;")
+        author_info.setAlignment(Qt.AlignCenter)
+        author_info.setWordWrap(True)
+        layout.addWidget(author_info)
+        
         return sidebar
     
     def create_content(self):

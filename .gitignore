@@ -49,3 +49,6 @@ Logs/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Batch files
+*.bat
