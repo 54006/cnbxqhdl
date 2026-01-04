@@ -52,3 +52,6 @@ Desktop.ini
 
 # Batch files
 *.bat
+
+# Archives
+*.zip
